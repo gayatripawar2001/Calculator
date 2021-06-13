@@ -23,6 +23,7 @@ public class Calculator extends JFrame implements ActionListener{
 	Calculator(){
 		first=second=operator="";
 	}
+	@SuppressWarnings("deprecation")
 	public static void main(String[] args) throws UnsupportedLookAndFeelException {
 		// TODO Auto-generated method stub
 		frame=new JFrame("cal");
